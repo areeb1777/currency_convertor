@@ -1,7 +1,8 @@
 /* style.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background-image: url("https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +13,7 @@ body {
 .converter-container {
   text-align: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgb(168, 168, 202);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -50,4 +51,7 @@ button:hover {
   margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
+}
+.amount {
+    width: 93%;
 }
